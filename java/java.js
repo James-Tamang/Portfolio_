@@ -9,7 +9,6 @@ function anime() {
    document.querySelector("#logo").classList.remove("fade");
     document.querySelector("#logo").classList.add("lani");
     
-    document.querySelector("#img").classList.add("bani");
     
     document.querySelector("#m1i").classList.add("blani");
     document.querySelector("#m2f").classList.add("blani");
