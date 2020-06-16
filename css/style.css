@@ -133,7 +133,7 @@ h2{
   background-image: url(3.JPG);
         box-shadow: 2px 2px 10px 10px white;
     }
-    100%{
+    75%{
        background-image: url(4.JPG);
         box-shadow: 2px 2px 10px 10px brown;
     }
