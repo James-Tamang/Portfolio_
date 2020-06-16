@@ -108,27 +108,19 @@ h2{
 
     background-size:100% ;
     background-position: center;
-  animation: slider 20s;
-     
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    animation-direction: alternate-reverse;
+  
        border-radius: 5%;
+    animation: slider 20s infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
 
     
 }
-.bani{
-    animation-name: slider;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    animation-direction: alternate-reverse;
-        
-    }
+
 
 @keyframes slider{
     1%{
-        background-image: url(3.JPG);
+        background-image: url(1.JPG);
         box-shadow: 2px 2px 10px 10px orange;
       
        
@@ -138,8 +130,7 @@ h2{
         box-shadow: 2px 2px 10px 10px yellow;
     }
     50%{
- 
-         background-image: url(1.JPG);
+  background-image: url(3.JPG);
         box-shadow: 2px 2px 10px 10px white;
     }
     100%{
