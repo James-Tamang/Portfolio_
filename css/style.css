@@ -108,7 +108,11 @@ h2{
 
     background-size:100% ;
     background-position: center;
-  
+  animation: slider 20s;
+     
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
        border-radius: 5%;
 
     
