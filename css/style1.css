@@ -1,0 +1,348 @@
+@font-face {
+    src: url(fonts/OldStandardTT-Bold.ttf);
+    font-family: osb;
+}
+
+@font-face {
+    src: url(fonts/Piedra-Regular.ttf);
+    font-family: piedra;
+}
+
+
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: skyblue;
+    opacity: 100%;
+   background-image: url(image/glen-carrie-6-XmguXtoVE-unsplash.jpg);
+    background-size: 100%;
+
+}
+
+header {
+    opacity: 90%;
+    display: flex;
+    height: 8vw;
+    background-color: aliceblue;
+
+
+}
+h1{
+    margin-left: 15%;
+    padding-bottom: 1vw;
+    font-size: 3.5vw;
+    color: darkgoldenrod;
+}
+#logo {
+    height: 6.8vw;
+    width: 8vw;
+    left: 10px;
+     background-image: url(logo.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 8vw;
+    width: 9vw;
+    border-radius:0% 35%;
+    margin: 0;
+}
+
+
+.lani{
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo{
+    50%{
+       background-image: url(lll.jpg); 
+    }
+}
+#navigation p {
+    margin: 1.5vw;
+    color: white;
+    font-size: 3vw;
+    font-family: osb;
+    color:darkgoldenrod;
+
+
+
+}
+
+#navigation {
+    display: flex;
+    font-size: 3vw;
+    position: absolute;
+    right: 2vw;
+
+
+}
+
+#box1 {
+    display: flex;
+    text-align: left;
+    border: 3px solid white;
+    box-shadow: 2px 2px 10px 10px white;
+}
+
+#box2 {
+    display: flex;
+    text-align: left;
+    border: 3px solid white;
+    box-shadow: 2px 2px 10px 10px white;
+}
+
+#box3 {
+    display: flex;
+    text-align: left;
+    border: 3px solid white;
+    box-shadow: 2px 2px 10px 10px white;
+}
+
+#box4 {
+    display: flex;
+    text-align: left;
+    border: 3px solid white;
+    box-shadow: 2px 2px 10px 10px white;
+}
+
+.boxa {
+
+    border: 3px solid white;
+   
+}
+
+.boxb {
+    padding: 2vw;
+
+    width: 50%;
+    font-size: 20px;
+    border: 3px solid white;
+    background-color: aliceblue;
+    opacity: 90%;
+
+}
+
+.boxc {
+
+    padding-left: 2vw;
+    width: 25%;
+    font-size: 19px;
+    border: 3px solid white;
+}
+
+footer {
+    background-color: brown;
+    color: white;
+}
+p{
+ opacity: 100%;
+}
+
+
+.boxa {
+    font-style: normal;
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #box1 {
+        display: grid;
+        text-align: center;
+        margin: 5vw;
+        padding: 0;
+
+    }
+
+    #box2 {
+        display: grid;
+        text-align: center;
+        margin: 5vw;
+        padding: 0;
+    }
+
+    #box3 {
+        display: grid;
+        text-align: center;
+        margin: 5vw;
+        padding: 0;
+    }
+
+    #box4 {
+        display: grid;
+        text-align: center;
+        margin: 5vw;
+        padding: 0;
+    }
+
+    .boxa {
+        padding-right: 3vw;
+        margin: 2vw;
+        padding-left: 2vw;
+        border-right-color: aliceblue;
+    }
+
+    .boxb {
+        padding-right: 3vw;
+        margin: 2vw;
+        width: 90%;
+        font-size: 19px;
+        text-align: left;
+        border: 0;
+       
+    }
+
+    .boxc {
+        padding-right: 3vw;
+        padding-top: 2vw;
+        margin: 2vw;
+        margin-left: 9vw;
+        width: 60vw;
+        font-size: 19px;
+        background-color: aliceblue;
+        border: 15px 1px white;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-left: 12vw;
+    }
+
+}
+
+#box2 .boxa {
+    padding-right: 15px;
+}
+
+
+#media {
+
+    display: flex;
+    margin-left: 15vw;
+
+}
+
+#m1i {
+    height: 45px;
+    width: 45px;
+    margin-right: 10vw;
+    background-image: url(image/ic.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#m2f {
+    height: 45px;
+    width: 45px;
+
+    margin-right: 10vw;
+    background-image: url(image/f.png);
+    background-size: cover;
+    background-position: center;
+    animation: anim 5s;
+
+}
+
+#m2f:hover {
+    transform: scale(1.5);
+
+
+}
+
+#m3l {
+    height: 45px;
+    width: 45px;
+    margin-right: 10vw;
+    background-image: url(image/lin.png);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+#m4g {
+    height: 45px;
+    width: 45px;
+    background-image: url(image/g.png);
+    background-size: cover;
+    background-position: center;
+
+    animation-delay: 2s;
+
+}
+
+#m4g:hover {
+    height: 75px;
+    width: 75px;
+    ;
+
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+#m3l:hover {
+    height: 75px;
+    width: 75px;
+    ;
+    transform: scale(1.5);
+    animation-play-state: paused;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+/*images*/
+
+
+#m1i:hover {
+    height: 75px;
+    width: 75px;
+    ;
+    transform: scale(1.5);
+    animation-play-state: paused;
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes anim {
+    0% {
+        left: -10vw;
+    }
+
+    50% {
+        left: 50vw;
+    }
+
+    100% {
+        left: 110vw;
+
+    }
+}
+
+.blani{
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+/*gallery*/
+
+.on{
+    border: 5px solid white;
+    box-shadow: 2px 10px 10px white;
+}
+img{
+    border-radius: 5%;
+    
+    width: 60vw;
+}

@@ -1,0 +1,208 @@
+@font-face {
+    src: url(fonts/OldStandardTT-Bold.ttf);
+    font-family:osb;
+}
+@font-face {
+    src: url(fonts/Piedra-Regular.ttf);
+    font-family:piedra;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: deepskyblue;
+    background-image: url(image/eeca77c0a665314d8f0a4e42a7f238c6.png);
+    background-image: url(image/glen-carrie-6-XmguXtoVE-unsplash.jpg);
+    background-size: 100%;
+
+}
+
+header{
+opacity: 90%;
+    display: flex;
+    background-color: aliceblue;
+    
+    
+}
+#logo {
+    height: 6.8vw;
+    width: 8vw;
+    left: 10px;
+     background-image: url(logo.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 8vw;
+    width: 9vw;
+    border-radius:0% 35%;
+    margin: 0;
+}
+
+
+.lani{
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo{
+    50%{
+       background-image: url(lll.jpg); 
+    }
+}
+#navigation{
+    display: flex;
+}
+#navigation p {
+    margin: 1.5vw;
+    color: tan;
+    font-size:3vw;
+    font-family: osb;
+
+}
+
+#navigation {
+font-size: 3vw;
+    position: absolute;
+    right: 2vw;
+}
+
+
+#img{
+    
+  margin-top: 1vw;
+    height: 45vh;
+    width:50%;
+    margin-left: 25vw;
+   border: .3vw solid black;
+    border-radius: 5%;
+    
+    
+}
+.img{
+    height: 100%;
+    width: 100%;
+     background-image: url(1.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 5%;
+}
+article{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color:powderblue;
+    border-radius: 1% 10%;
+    font-size: 25px;
+}
+
+h1{
+margin-left: 14%;
+    font-size: 5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    color: goldenrod;
+}
+
+h2{
+    font-family: osb;
+}
+article p{
+    border-bottom: .5vw dotted;
+}
+
+@media only screen and (max-width: 500px){
+    article{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 17px;
+        text-align: left;
+        border-radius: 0;
+        background-color: lightskyblue;
+}
+}
+#media{
+
+    display: flex;
+    margin-left: 15vw
+
+}
+#m1i{
+    height: 45px;
+    width:45px;
+    
+    margin-right: 10vw;
+    background-image: url(image/ic.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+#m2f{
+     height: 45px;
+    width:45px;
+
+      margin-right: 10vw;
+     background-image: url(image/f.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+#m2f:hover{
+    transform: scale(1.5);
+    
+    
+}
+
+#m3l{
+    height: 45px;
+    width:45px;
+  margin-right: 10vw;
+     background-image: url(image/lin.png);
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+#m4g{
+    height: 45px;
+    width:45px;
+     background-image: url(image/g.png);
+    background-size: cover;
+    background-position: center;
+   
+    animation-delay: 2s;
+    
+}
+#m4g:hover {
+    height: 75px;
+    width:75px;;
+    
+    background-size: cover;
+    background-position: center;
+ 
+    
+}
+
+#m3l:hover {
+    height: 75px;
+    width:75px;;
+    transform: scale(1.5);
+    animation-play-state: paused;
+    background-size: cover;
+    background-position: center;
+ 
+    
+}
+#m1i:hover{
+     height: 75px;
+    width:75px;;
+    transform: scale(1.5);
+    animation-play-state: paused;
+    background-size: cover;
+    background-position: center;
+}
+footer{
+
+    padding: 2vw;
+    text-align: left
+}
